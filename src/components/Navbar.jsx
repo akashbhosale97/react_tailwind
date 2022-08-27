@@ -47,7 +47,7 @@ const Navbar = () => {
         )}
       </div>
       {show && (
-        <div className={`sm:hidden absolute top-20 right-4 bg-gray-100 w-1/4 rounded-2xl p-4 scale`}>
+        <div className={`sm:hidden absolute top-20 right-8 bg-gray-100 rounded-2xl p-4 scale`}>
           <ul className='space-y-4'>
             <li className='hover:text-red-500'>
               <a className='flex items-center text-[16px]'>
